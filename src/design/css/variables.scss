@@ -1,0 +1,177 @@
+.pointer {
+  cursor: pointer;
+}
+
+// colors
+$background: #f8f9fa;
+$white: #ffffff;
+$teal: #4fd1c5;
+$green: #48bb78;
+$red: #e53e3e;
+$black: #2d3748;
+$gray-200: #e2e8f0;
+$gray-400: #a0aec0;
+$gray-500: #718096;
+$gray-700: #2d3748;
+
+.gray400 {
+  color: $gray-400;
+}
+.gray500 {
+  color: $gray-500;
+}
+.gray700 {
+  color: $gray-700;
+}
+.green {
+  color: $green;
+}
+
+.tealbg {
+  background-color: $teal;
+}
+.whitebg {
+  background-color: $white;
+}
+.whitef {
+  color: $white;
+}
+
+// shadow gradient
+.drop-shadow {
+  box-shadow: 0px 3.5px 5.5px 0px #00000005;
+}
+
+.grad1{
+  background: linear-gradient(360deg, rgba(49, 56, 96, 0.16) 0%, rgba(21, 25, 40, 0.88) 100%);
+}
+
+// font
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica.woff2") format("woff2"),
+    url("Helvetica.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.f10 {
+  font-size: 10px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f12 {
+  font-size: 12px;
+}
+.f18 {
+  font-size: 18px;
+}
+// shapes
+.rectangle2 {
+  border-radius: 15px;
+  height: 54px;
+  box-shadow: 0px 3.5px 5.5px 0px rgb(0 0 0 / 7%);
+}
+
+.rectangle3 {
+  border-radius: 12px;
+  width: 30px;
+  height: 30px;
+}
+
+.rectangle4 {
+  border-radius: 12px;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0px 3.5px 5.5px 0px rgb(0 0 0 / 7%);
+}
+
+.rectangle5 {
+  border-radius: 15px;
+  box-shadow: 0px 3.5px 5.5px 0px #00000005;
+}
+
+.rectangle6 {
+  border-radius: 12px;
+  width: 45px;
+  height: 45px;
+}
+
+.rectangle9 {
+  border-radius: 15px;
+  background-color: $white;
+  box-shadow: 0px 3.5px 5.5px 0px #00000005;
+}
+.rectanglein {
+  border-radius: 15px;
+  border: 0.5px solid $gray-200;
+  background-color: $white;
+  padding: 13px;
+}
+
+.vector6 {
+  width: 233.25;
+  height: 1px;
+  top: 94.5px;
+  left: 24.5px;
+  border-width: 1px;
+  border: 1px solid black;
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(224, 225, 226, 0) 0%,
+    #e0e1e2 49.52%,
+    rgba(224, 225, 226, 0.15625) 99.04%
+  );
+}
+
+// order
+.df {
+  display: flex;
+}
+.jc {
+  justify-content: center;
+}
+.je {
+  justify-content: end;
+}
+.js {
+  justify-content: start;
+}
+.aic {
+  align-items: center;
+}
+
+.pa {
+  position: absolute;
+}
+.pr {
+  position: relative;
+}
+
+.left16 {
+  padding-left: 16px;
+}
+
+.w17 {
+  width: 17vw; //absolute yerine çözüm
+}
+
+// hover
+.hvr1 {
+  transition: all 0.2s ease;
+  :hover {
+    color: $black;
+    font-size: 13px;
+    transition: transform 0.3s ease;
+    img {
+      transform: scale(1.2);
+      transition: transform 0.3s ease;
+    }
+  }
+}
