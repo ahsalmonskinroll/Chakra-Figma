@@ -18,8 +18,16 @@
   color: #48bb78;
 }
 
+.red {
+  color: #e53e3e;
+}
+
 .tealbg {
   background-color: #4fd1c5;
+}
+
+.tealf {
+  color: #4fd1c5;
 }
 
 .whitebg {
@@ -38,6 +46,10 @@
   background: linear-gradient(360deg, rgba(49, 56, 96, 0.16) 0%, rgba(21, 25, 40, 0.88) 100%);
 }
 
+.grad2 {
+  background: linear-gradient(81.62deg, #313860 2.25%, #151928 79.87%);
+}
+
 @font-face {
   font-family: "Helvetica";
   src: url("Helvetica.woff2") format("woff2"), url("Helvetica.woff") format("woff");
@@ -47,6 +59,10 @@
 }
 .fw400 {
   font-weight: 400;
+}
+
+.fw700 {
+  font-weight: 700;
 }
 
 .f10 {
@@ -95,10 +111,14 @@
   height: 45px;
 }
 
+.rectangle7 {
+  border-radius: 12px;
+}
+
 .rectangle9 {
   border-radius: 15px;
   background-color: #ffffff;
-  box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.0196078431);
+  box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.07);
 }
 
 .rectanglein {
@@ -138,6 +158,10 @@
   align-items: center;
 }
 
+.aie {
+  align-items: end;
+}
+
 .pa {
   position: absolute;
 }
@@ -152,6 +176,10 @@
 
 .w17 {
   width: 17vw;
+}
+
+.w70 {
+  width: 78%;
 }
 
 .hvr1 {

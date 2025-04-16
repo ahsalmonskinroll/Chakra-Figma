@@ -88,18 +88,28 @@ button {
   width: 20px;
   height: auto;
 }
+
 .iconimg1 {
   width: 22.5px;
   height: 22.5px;
 }
 
+.iconimg2 {
+  height: 14px;
+  width: 14px;
+}
+
 input {
-  border-color: none;
+  border-color: $white;
   border-width: 0;
+  ::after {
+    border-color: $white;
+    border-width: 0;
+  }
 }
 
 .secondcard {
-  height: 255.5px;
+  // height: 255.5px;
   border-radius: 12px;
   background-image: linear-gradient(
       360deg,
@@ -115,4 +125,30 @@ input {
 .readmore {
   height: 140px;
   align-items: end;
+}
+
+.imgbox {
+  width: 200px;
+  height: auto;
+}
+
+.linebox {
+  display: contents;
+  img {
+    width: 100%;
+  }
+}
+.y-axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-right: 10px;
+}
+
+.salesdata {
+  width: 100%;
+  img {
+    width: 100%;
+  }
 }

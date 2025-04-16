@@ -26,9 +26,14 @@ $gray-700: #2d3748;
 .green {
   color: $green;
 }
-
+.red {
+  color: $red;
+}
 .tealbg {
   background-color: $teal;
+}
+.tealf {
+  color: $teal;
 }
 .whitebg {
   background-color: $white;
@@ -42,8 +47,15 @@ $gray-700: #2d3748;
   box-shadow: 0px 3.5px 5.5px 0px #00000005;
 }
 
-.grad1{
-  background: linear-gradient(360deg, rgba(49, 56, 96, 0.16) 0%, rgba(21, 25, 40, 0.88) 100%);
+.grad1 {
+  background: linear-gradient(
+    360deg,
+    rgba(49, 56, 96, 0.16) 0%,
+    rgba(21, 25, 40, 0.88) 100%
+  );
+}
+.grad2 {
+  background: linear-gradient(81.62deg, #313860 2.25%, #151928 79.87%);
 }
 
 // font
@@ -58,6 +70,9 @@ $gray-700: #2d3748;
 
 .fw400 {
   font-weight: 400;
+}
+.fw700 {
+  font-weight: 700;
 }
 
 .f10 {
@@ -103,11 +118,16 @@ $gray-700: #2d3748;
   height: 45px;
 }
 
+.rectangle7 {
+  border-radius: 12px;
+}
+
 .rectangle9 {
   border-radius: 15px;
   background-color: $white;
-  box-shadow: 0px 3.5px 5.5px 0px #00000005;
+  box-shadow: 0px 3.5px 5.5px 0px rgb(0 0 0 / 7%);
 }
+
 .rectanglein {
   border-radius: 15px;
   border: 0.5px solid $gray-200;
@@ -146,6 +166,9 @@ $gray-700: #2d3748;
 .aic {
   align-items: center;
 }
+.aie {
+  align-items: end;
+}
 
 .pa {
   position: absolute;
@@ -160,6 +183,10 @@ $gray-700: #2d3748;
 
 .w17 {
   width: 17vw; //absolute yerine çözüm
+}
+
+.w70 {
+  width: 78%;
 }
 
 // hover
