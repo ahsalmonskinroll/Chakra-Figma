@@ -135,6 +135,7 @@ $gray-700: #2d3748;
   padding: 13px;
 }
 
+
 .vector6 {
   width: 233.25;
   height: 1px;
@@ -182,11 +183,15 @@ $gray-700: #2d3748;
 }
 
 .w17 {
-  width: 17vw; //absolute yerine çözüm
+  width: 100%; //absolute yerine çözüm
 }
 
 .w70 {
   width: 78%;
+}
+
+.h100{
+  height: 100%;
 }
 
 // hover
@@ -200,5 +205,12 @@ $gray-700: #2d3748;
       transform: scale(1.2);
       transition: transform 0.3s ease;
     }
+  }
+}
+
+.hvr2{
+  transition: all 0.2s ease;
+  :hover{
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.21);
   }
 }
